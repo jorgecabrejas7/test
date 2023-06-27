@@ -10,4 +10,5 @@ RUN npm install
 
 COPY  . .
 
-CMD npm run build; npm start
+RUN npm run build
+CMD npm start
