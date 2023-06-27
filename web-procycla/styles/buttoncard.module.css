@@ -1,0 +1,17 @@
+.card {
+    width: 230px;
+    height: 230px;
+    background-color: #61c250;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card:hover {
+    filter: brightness(95%);
+}

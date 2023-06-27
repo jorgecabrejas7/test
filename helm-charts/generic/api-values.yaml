@@ -1,0 +1,61 @@
+svc:
+  - name: api
+    namespace: default
+    docker_image: nginx:latest
+    replicas: 1
+    svcPort: 3010
+    targetPort: 3010
+    imagePullPolicy : Always
+    # path_check: "html"
+    tls_secret: ""
+    host : "api.24.199.74.71.nip.io"
+    apiPrefix: "/"
+    resources:
+      memoryMiB: 300
+      cpuMilli: 300
+    env:
+      - name: ACCESS_TOKEN_EXPIRES_IN
+        value: 30d
+      - name: "DB_NAME"
+        value: "procycla"
+      - name: "DB_USER"
+        value: "root"
+      - name: "DB_PASS"
+        value: "procycla"
+      - name: "DB_HOST"
+        value: "my-release-mariadb"
+      - name: "DB_PORT"
+        value: "3306"
+      - name: "BMP_API_URL"
+        value: "http://bmp.24.199.74.71.nip.io"
+      - name: "WRANGLING_API_URL"
+        value: "http://wrangling-service.24.199.74.71.nip.io"
+      - name: "STRIPE_SECRET_KEY"
+        value: "sk_test_CGGvfNiIPwLXiDwaOfZ3oX6Y"
+      - name: "DATE_FORMAT"
+        value: "DD/MM/YYYY h:mm:ss"
+      - name: "SALT_ROUNDS"
+        value: "10"
+      - name: "DB_FORCE_ALTER"
+        value: "false"  
+      - name: "DB_FORCE_SYNC"
+        value: "false"
+      - name: "ACCESS_TOKEN_SECRET"
+        value: "ekWvcHLAwQQPVFiRHJae05WoSn6LEums7VK/pU1ikFs="
+      - name: "APP_URL"
+        value: "http://api.24.199.74.71.nip.io"
+      - name: "DEV"
+        value: "false"
+      - name: "APP_PORT"
+        value: "3010"
+      - name: "CSTR_API_URL"
+        value: "http://cstr.24.199.74.71.nip.io"
+      - name: "MAIL_HOST"
+        value: "smtp.ethereal.email"
+      - name: "MAIL_PORT"
+        value: "587"
+      - name: "MAIL_USER"
+        value: "roselyn.lueilwitz60@ethereal.email"
+      - name: "MAIL_PASS"
+        value: "xgGSpd8Cr8TPxgWrpz"
+#

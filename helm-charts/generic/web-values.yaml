@@ -1,0 +1,35 @@
+svc:
+  - name: web
+    namespace: default
+    docker_image: nginx:latest
+    replicas: 1
+    svcPort: 3000
+    targetPort: 3000
+    imagePullPolicy : Always
+    # path_check: "html"
+    tls_secret: ""
+    host : "web.24.199.74.71.nip.io"
+    apiPrefix: "/"
+    resources:
+      memoryMiB: 300
+      cpuMilli: 300
+    env:
+      # - name: "NODE_ENV"
+      #   value: "development"
+      # - name: "HTTPS"
+      #   value: "false"
+      # - name: "NEXT_PUBLIC_API_URL"
+      #   value: http://web.24.199.74.71.nip.io/
+      # - name: "WDS_SOCKET_PORT"
+      #   value: "0"
+      # - name: "NEXTAUTH_URL"
+      #   value: http://web.24.199.74.71.nip.io/
+      # - name: "NEXTAUTH_SECRET"
+      #   value: "ekWvcHLAwQQPVFiRHJae05WoSn6LEums7VK/pU1ikFs="
+      # - name: "BACK_API_URL"
+      #   value: http://api.24.199.74.71.nip.io/
+      # - name: "BACK_API_AUTH_URL"
+      #   value: http://api.24.199.74.71.nip.io/
+      # - name: "STRIPE_PUBLIC_KEY"
+      #   value: "pk_test_Dt4ZBItXSZT1EzmOd8yCxonL"
+#

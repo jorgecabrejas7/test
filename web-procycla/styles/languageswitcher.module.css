@@ -1,0 +1,40 @@
+.languageswitcher {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #1e1e1e;
+    background-color: white;
+    z-index: 20;
+}
+
+.language {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #1e1e1e;
+    background-color: white;
+    border-top: 0px;
+    z-index: 20;
+    padding-left: 30px;
+}
+
+.current {
+    filter: brightness(95%);
+}
+
+.languageswitcher:hover {
+    filter: brightness(95%);
+}
+
+.language:hover {
+    filter: brightness(90%);
+}
+
+@media screen and (max-width: 600px) {
+    .languageswitcher {
+        width: 100px;
+    }
+    
+    .language {
+        width: 100px;
+        padding-left: 20px;
+    }
+}

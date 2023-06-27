@@ -1,0 +1,47 @@
+name: Web Build, Push, Install 
+
+on:
+  push:
+    branches: main
+    paths:
+      - 'web-procycla/**'
+      - 'helm-charts/generic/web-values.yaml'
+      - '.github/workflows/web.yaml'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+      - name: Build image 
+        run: 
+          docker build --build-arg NODE_ENV=production --build-arg NEXT_PUBLIC_API_URL=${{ secrets.NEXT_PUBLIC_API_URL }} --build-arg WDS_SOCKET_PORT=0 --build-arg NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL }} --build-arg NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET }} --build-arg BACK_API_URL=${{ secrets.BACK_API_URL }} --build-arg BACK_API_AUTH_URL=${{ secrets.BACK_API_AUTH_URL }}     --build-arg HTTPS=false  --build-arg STRIPE_PUBLIC_KEY=${{ secrets.STRIPE_PUBLIC_KEY }} -t ${{ secrets.DIGITALOCEAN_REGISTRY_NAME }}/web:latest -f ./web-procycla/Dockerfile ./web-procycla 
+
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+            token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+
+      - name: Log in to DO Container Registry 
+        run: doctl registry login --expiry-seconds 600
+        
+      - name: Save DigitalOcean kubeconfig
+        run: doctl kubernetes cluster kubeconfig save ${{ secrets.DIGITALOCEAN_K8S_ID }} 
+
+      - name: Push image to DO Container Registry 
+        run: docker push ${{ secrets.DIGITALOCEAN_REGISTRY_NAME }}/web:latest
+
+
+      - name: Deploy
+        uses: WyriHaximus/github-action-helm3@v3
+        with:
+          exec: helm upgrade web helm-charts/generic/apps --install --wait --atomic --namespace=default --values=helm-charts/generic/web-values.yaml --set "svc[0].docker_image=${{ secrets.DIGITALOCEAN_REGISTRY_NAME }}/web:latest" 
+          #
+      # - name: Rollout new version
+      #   uses: actions-hub/kubectl@master
+      #   with:
+      # #     args: rollout restart deployment web
+      # - name: Remove untagged manifest
+      #   run: doctl registry garbage-collection start --include-untagged-manifests --force
+
+  

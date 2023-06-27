@@ -1,0 +1,50 @@
+{{- range  .Values.svc }}
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: {{ .namespace }}
+  name: {{ .name }}
+  labels:
+    app: {{ .name }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ .name }}
+  replicas: {{ .replicas }}
+  template:
+    metadata:
+      labels:
+        app: {{ .name }}
+    spec:
+{{ if .imagePullSecrets }}  
+      imagePullSecrets:
+      - name: {{ .imagePullSecrets }}
+{{ end}}  
+      containers:
+      - name: client
+        image: {{ .docker_image }}
+        imagePullPolicy: {{.imagePullPolicy}}
+
+        resources:
+          requests:
+            memory: {{ .resources.memoryMiB }}Mi
+            cpu: {{ .resources.cpuMilli }}m
+          limits:
+            memory: {{ .resources.memoryMiB }}Mi
+            cpu: {{ .resources.cpuMilli }}m
+        ports:
+        - containerPort: {{ .targetPort}}
+          name: targetport
+        env: 
+          - name: POD_IP
+            valueFrom:
+              fieldRef:
+                fieldPath: status.podIP
+          {{- range .env }}
+          - name: "{{ .name }}"
+            value: "{{ .value }}"
+          {{- end }}
+
+{{- end }}

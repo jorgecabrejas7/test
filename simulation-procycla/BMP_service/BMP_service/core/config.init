@@ -1,0 +1,52 @@
+[address]
+url: []
+
+[energy]
+pc-biogas-inf = 6.5
+r-chp-caldera = 0.644
+r-chp-motor = 0.34
+
+[r2]
+greater-than = 0.7
+less-than
+status-code = 1
+
+[rmse]
+greater-than = 0
+less-than
+status-code = 1
+
+[fb]
+greater-than
+less-than = 0.3
+status-code = 1
+
+[a]
+greater-than = 10
+less-than = 1000
+status-code = 1
+
+[b]
+greater-than = 0.001
+less-than = 10
+status-code = 1
+
+[a-cinf]
+greater-than = 0
+less-than
+status-code = 2
+
+[b-cinf]
+greater-than = 0
+less-than
+status-code = 2
+
+[a-cinf-relation]
+greater-than
+less-than = 0.2
+status-code = 3
+
+[b-cinf-relation]
+greater-than
+less-than = 0.2
+status-code = 3

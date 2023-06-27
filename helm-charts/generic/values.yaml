@@ -1,0 +1,20 @@
+svc:
+  - name: nginx-service
+    namespace: default
+    docker_image: nginx:latest
+    replicas: 1
+    svcPort: 80
+    targetPort: 80
+    imagePullPolicy : Always
+    # path_check: "html"
+    tls_secret: ""
+    host : "nginx.24.199.74.71.nip.io"
+    apiPrefix: "/nginx"
+    resources:
+      memoryMiB: 100
+      cpuMilli: 100
+    env:
+      - name: "VARIABLE_NAME"
+        value: "VARIABLE_VALUE"
+
+#

@@ -1,0 +1,14 @@
+.card {
+    width: 100%;
+    max-width: 800px;
+    min-height: 500px;
+    margin: 30px;
+}
+
+.bar {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(86, 90, 92, 0.3);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

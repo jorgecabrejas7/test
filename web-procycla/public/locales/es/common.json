@@ -1,0 +1,449 @@
+{
+    "ROUTES": {
+        "HOME": {
+            "TITLE": "Inicio"
+        },
+        "PROJECTS": {
+            "TITLE": "Proyectos",
+            "NEW_PROJECT": "Nuevo proyecto",
+            "MY_PROJECTS": "Mis proyectos",
+            "EDIT_PROJECT": "Editar proyecto",
+            "SIMULATIONS": "Simulaciones",
+            "SIMULATION": "Simulación"
+        },
+        "SOFTWARE": {
+            "TITLE": "Software"
+        },
+        "PROFILE": {
+            "TITLE": "Perfil",
+            "PROFILE_SETTINGS": "Editar perfil",
+            "ACCOUNT_BILLING": "Cuenta y facturación",
+            "SUPPORT": "Soporte técnico",
+            "SESSIONS": "Sesiones",
+            "TICKET_EDIT": "Ticket",
+            "HELP_CENTER": "Centro de ayuda"
+        },
+        "ADMIN": {
+            "TITLE": "Admin",
+            "USER_MANAGEMENT": "Gestión de usuarios",
+            "USER_EDIT": "Editar usuario",
+            "SUBSCRIPTIONS": "Subscripciones",
+            "PAYMENTS": "Pagos",
+            "SUPPORT": "Soporte técnico"
+        },
+        "404": {
+            "TITLE": "404 | Ruta no encontrada"
+        }
+    },
+    "SIDEBAR": {
+        "OPERATIONAL": "Operacional",
+        "ADMIN": "Admin",
+        "LOGOUT": "Cerrar sesión"
+    },
+    "LANGUAGES": {
+        "LANGUAGE": "Idioma",
+        "EN": "Inglés",
+        "ES": "Español"
+    },
+    "FAQ": {
+        "TITLE": "Preguntas frecuentes",
+        "LINKS": "Sitios más usados",
+        "QUESTIONS": [
+            {
+                "QUESTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "ANSWER": "Vestibulum semper nunc sit amet ipsum dapibus aliquet. Duis congue, purus eget sollicitudin consectetur, erat nisi dignissim ante, eget maximus nibh nunc nec urna. Aliquam pretium vulputate urna id consequat. Pellentesque est arcu, hendrerit ut nisi ut, ultrices volutpat ligula. Sed vehicula euismod euismod. Fusce lacinia leo quis hendrerit dapibus. Aliquam vitae leo nunc. Fusce neque orci, condimentum hendrerit luctus eget, vehicula molestie lorem. Suspendisse sodales porttitor diam, ut aliquam enim mollis in. Aliquam facilisis feugiat vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer facilisis risus vel eros porttitor efficitur. Sed vel tortor ac risus laoreet venenatis at porta turpis. Fusce imperdiet sapien vel enim sagittis, sed porta ipsum accumsan. Quisque porta, orci et condimentum convallis, mauris ante convallis erat, vel aliquam tortor justo quis nisi."
+            },
+            {
+                "QUESTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "ANSWER": "Vestibulum semper nunc sit amet ipsum dapibus aliquet. Duis congue, purus eget sollicitudin consectetur, erat nisi dignissim ante, eget maximus nibh nunc nec urna. Aliquam pretium vulputate urna id consequat. Pellentesque est arcu, hendrerit ut nisi ut, ultrices volutpat ligula. Sed vehicula euismod euismod. Fusce lacinia leo quis hendrerit dapibus. Aliquam vitae leo nunc. Fusce neque orci, condimentum hendrerit luctus eget, vehicula molestie lorem. Suspendisse sodales porttitor diam, ut aliquam enim mollis in. Aliquam facilisis feugiat vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer facilisis risus vel eros porttitor efficitur. Sed vel tortor ac risus laoreet venenatis at porta turpis. Fusce imperdiet sapien vel enim sagittis, sed porta ipsum accumsan. Quisque porta, orci et condimentum convallis, mauris ante convallis erat, vel aliquam tortor justo quis nisi."
+            },
+            {
+                "QUESTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "ANSWER": "Vestibulum semper nunc sit amet ipsum dapibus aliquet. Duis congue, purus eget sollicitudin consectetur, erat nisi dignissim ante, eget maximus nibh nunc nec urna. Aliquam pretium vulputate urna id consequat. Pellentesque est arcu, hendrerit ut nisi ut, ultrices volutpat ligula. Sed vehicula euismod euismod. Fusce lacinia leo quis hendrerit dapibus. Aliquam vitae leo nunc. Fusce neque orci, condimentum hendrerit luctus eget, vehicula molestie lorem. Suspendisse sodales porttitor diam, ut aliquam enim mollis in. Aliquam facilisis feugiat vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer facilisis risus vel eros porttitor efficitur. Sed vel tortor ac risus laoreet venenatis at porta turpis. Fusce imperdiet sapien vel enim sagittis, sed porta ipsum accumsan. Quisque porta, orci et condimentum convallis, mauris ante convallis erat, vel aliquam tortor justo quis nisi."
+            },
+            {
+                "QUESTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "ANSWER": "Vestibulum semper nunc sit amet ipsum dapibus aliquet. Duis congue, purus eget sollicitudin consectetur, erat nisi dignissim ante, eget maximus nibh nunc nec urna. Aliquam pretium vulputate urna id consequat. Pellentesque est arcu, hendrerit ut nisi ut, ultrices volutpat ligula. Sed vehicula euismod euismod. Fusce lacinia leo quis hendrerit dapibus. Aliquam vitae leo nunc. Fusce neque orci, condimentum hendrerit luctus eget, vehicula molestie lorem. Suspendisse sodales porttitor diam, ut aliquam enim mollis in. Aliquam facilisis feugiat vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer facilisis risus vel eros porttitor efficitur. Sed vel tortor ac risus laoreet venenatis at porta turpis. Fusce imperdiet sapien vel enim sagittis, sed porta ipsum accumsan. Quisque porta, orci et condimentum convallis, mauris ante convallis erat, vel aliquam tortor justo quis nisi."
+            },
+            {
+                "QUESTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "ANSWER": "Vestibulum semper nunc sit amet ipsum dapibus aliquet. Duis congue, purus eget sollicitudin consectetur, erat nisi dignissim ante, eget maximus nibh nunc nec urna. Aliquam pretium vulputate urna id consequat. Pellentesque est arcu, hendrerit ut nisi ut, ultrices volutpat ligula. Sed vehicula euismod euismod. Fusce lacinia leo quis hendrerit dapibus. Aliquam vitae leo nunc. Fusce neque orci, condimentum hendrerit luctus eget, vehicula molestie lorem. Suspendisse sodales porttitor diam, ut aliquam enim mollis in. Aliquam facilisis feugiat vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer facilisis risus vel eros porttitor efficitur. Sed vel tortor ac risus laoreet venenatis at porta turpis. Fusce imperdiet sapien vel enim sagittis, sed porta ipsum accumsan. Quisque porta, orci et condimentum convallis, mauris ante convallis erat, vel aliquam tortor justo quis nisi."
+            },
+            {
+                "QUESTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "ANSWER": "Vestibulum semper nunc sit amet ipsum dapibus aliquet. Duis congue, purus eget sollicitudin consectetur, erat nisi dignissim ante, eget maximus nibh nunc nec urna. Aliquam pretium vulputate urna id consequat. Pellentesque est arcu, hendrerit ut nisi ut, ultrices volutpat ligula. Sed vehicula euismod euismod. Fusce lacinia leo quis hendrerit dapibus. Aliquam vitae leo nunc. Fusce neque orci, condimentum hendrerit luctus eget, vehicula molestie lorem. Suspendisse sodales porttitor diam, ut aliquam enim mollis in. Aliquam facilisis feugiat vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer facilisis risus vel eros porttitor efficitur. Sed vel tortor ac risus laoreet venenatis at porta turpis. Fusce imperdiet sapien vel enim sagittis, sed porta ipsum accumsan. Quisque porta, orci et condimentum convallis, mauris ante convallis erat, vel aliquam tortor justo quis nisi."
+            }
+        ]
+    },
+    "COMMON": {
+        "FETCH_DATA_ERROR": "Error obteniendo datos",
+        "UPDATE_DATA_ERROR": "Error actualizando datos",
+        "DATA_UPDATED": "Datos actualizados",
+        "DATA_SUBMITTED": "Datos enviados",
+        "ACTIONS": "Acciones",
+        "ID": "Id",
+        "EMAIL": "Correo electrónico",
+        "PASSWORD": "Contraseña",
+        "CONTINUE": "Continuar",
+        "STATUS": "Estado",
+        "EDIT": "Editar",
+        "USERNAME": "Usuario",
+        "SAVE_CHANGES": "Guardar cambios",
+        "DISABLE": "Deshabilitar",
+        "ENABLE": "Habilitar",
+        "DATE": "Fecha",
+        "TITLE": "Título",
+        "VIEW": "Ver",
+        "MESSAGE": "Mensaje",
+        "SUBMIT": "Enviar",
+        "FROM": "De",
+        "TYPE": "Tipo",
+        "NONE": "Ninguno/a",
+        "EXPIRED": "Expirada",
+        "SELECT": "Seleccionar",
+        "TOTAL": "Total",
+        "DOWNLOAD": "Descargar",
+        "DELETE": "Eliminar",
+        "PLAN": "Plan",
+        "PRICE": "Precio",
+        "CANCEL": "Cancelar",
+        "PURCHASE": "Comprar",
+        "USER": "Usuario",
+        "LOGIN": "Ingresar",
+        "REGISTER": "Registrarse",
+        "NAME": "Nombre",
+        "DESCRIPTION": "Descripción",
+        "ACCEPT": "Aceptar",
+        "CONFIRM": "Confirmar",
+        "SIMULATE": "Simular",
+        "FILE": "Archivo",
+        "PREV": "Anterior",
+        "NEXT": "Siguiente",
+        "EXECUTE": "Ejecutar",
+        "PENDING": "Pendiente",
+        "FINISHED": "Finalizado",
+        "FAILED": "Fallido",
+        "RUNNING": "Ejecutándose",
+        "CLUSTER": "Cluster",
+        "TIME": "Tiempo",
+        "GO_BACK": "Volver atrás",
+        "RELOAD": "Recargar",
+        "TRY_AGAIN": "Intentar nuevamente",
+        "VALUES": "Valores",
+        "PREDICTED_VALUES": "Valores predichos",
+        "VALUE": "Valor",
+        "MIN_VALUES": "Valores mínimos",
+        "MAX_VALUES": "Valores máximos",
+        "CODE": "Código",
+        "DAYS": "Días",
+        "YEAR": "Año",
+        "UNIT": "Unidad"
+    },
+    "PAGES": {
+        "LANDING": {
+            "TITLE": "Planes para todos los niveles de ambición",
+            "GO_TO_APP": "Ir a la app",
+            "REGISTER": "Regístrate ahora"
+        },
+        "HOME": {
+            "TITLE": "PROCYCLA Y MODSIM",
+            "DESCRIPTION_TITLE": "Bienvenido a la Plataforma de Modelado y Simulación proporcionada por ProCycla",
+            "DESCRIPTION": "Esta plataforma está orientada a apoyar la toma de decisiones para el diseño y la operación de plantas de biogás. Te invitamos a usar la herramienta de modelado a la que tienes acceso, encontrar información relevante sobre el modelado e intercambiar ideas con nuestro equipo de modelado.",
+            "COMPANY": "La Empresa",
+            "MODSIM_TEAM": "Equipo ModSim"
+        },
+        "COMPANY": {
+            "TITLE": "La Empresa",
+            "ABOUT_US": "Sobre Procycla",
+            "ABOUT_US_TEXT": "Procycla es una empresa fundada en 2012 con oficinas en España y Chile, que ofrece productos y servicios de ingeniería y consultoría en diferentes áreas de gestión ambiental, energías renovables, tratamiento de residuos y urbanismo.",
+            "ABOUT_MODSIM": "Sobre ModSim",
+            "ABOUT_MODSIM_TEXT": "ModSim es el departamento de Modelado y Simulación de ProCycla. ModSim tiene como objetivo abordar los desafíos que enfrenta la industria de procesos a través del modelado matemático y la simulación para la creación de prototipos/pilotos virtuales.",
+            "ABOUT_MODSIM_TEXT2": "ModSim proporciona herramientas computacionales de primera línea para crear gemelos digitales virtuales de sistemas específicos. Nuestro servicio está diseñado para optimizar procesos energéticos y biológicos, como plantas de digestión anaeróbica y generación de biogás, lo que lleva a operaciones más eficientes y rentables para su negocio.",
+            "ANDRES_FEATURE_1": "Ingeniera bioquímica y liderazgo de equipos.",
+            "ANDRES_FEATURE_2": "Doctor. en Ciencias de la Ingeniería de la PUCV (Chile).",
+            "MARIA_FEATURE_1": "Ingeniera de biotecnología e investigadora de modelos.",
+            "MARIA_FEATURE_2": "Doctor. en Ingeniería Química de la Universidad de Alberta (Canadá).",
+            "FERNANDO_FEATURE_1": "Física, Ingeniera de Modelado y Simulación.",
+            "FERNANDO_FEATURE_2": "Máster Universitario en Gráficos Computacionales."
+        },
+        "SOFTWARE": {
+            "TITLE": "Software",
+            "BMP_MODULE": "Módulo BMP",
+            "BMP_MODULE_TEXT": "El módulo BMP es una herramienta de modelado donde los datos de la prueba de lote anaeróbico convencional o la prueba de potencial de biometano pueden ser procesados por...",
+            "CSTR_MODULE": "Módulo CSTR",
+            "CSTR_MODULE_TEXT": "El módulo CSTR permite al usuario simular la operación de un digestor anaeróbico continuo para predecir la producción de biogás y el digestato...",
+            "BPA_MT_MODULE": "Módulo BPA-MT",
+            "BPA_MT_MODULE_TEXT": "El módulo BPA-MT toma sus datos BMP y proporciona una predicción dinámica del rendimiento de un digestor industrial, incluida la incertidumbre de los resultados.",
+            "SEE_MORE": "Ver más"
+        },
+        "REGISTER": {
+            "TITLE_STEP_0": "Crea tu cuenta ahora",
+            "TITLE_STEP_1": "Completa los detalles de tu cuenta",
+            "HAVE_ACCOUNT": "¿Ya estás registrado?",
+            "GO_BACK": "Volver"
+        },
+        "LOGIN": {
+            "TITLE": "Bienvenido de nuevo",
+            "NO_ACCOUNT": "¿No tienes cuenta?",
+            "TWO_FA": "Nuevo dispositivo detectado. Hemos enviado un código de verificación a tu correo electrónico. Por favor, ingresa el código para continuar."
+        },
+        "PROFILE": {
+            "SETTINGS": {
+                "PUBLIC_INFO": "Información pública",
+                "PRIVATE_DETAILS": "Detalles privados",
+                "ABOUT_ME": "Sobre mí",
+                "LOCATION": "Ubicación",
+                "SOCIAL_MEDIA_LINKS": "Enlaces a tus redes sociales",
+                "TWITTER": "Twitter",
+                "YOUTUBE": "YouTube",
+                "FACEBOOK": "Facebook",
+                "INSTAGRAM": "Instagram",
+                "WEBSITE": "Sitio web",
+                "SIGNATURE": "Firma",
+                "TWO_FACTOR_AUTHENTICATION": "Autenticación de doble factor",
+                "EMAIL_VERIFICATION": "Verificación por correo",
+                "EMAIL_VERIFICATION_DESCRIPTION": "Recibe un código a tu correo electrónico cuando inicies sesión.",
+                "FIRST_NAME": "Nombre",
+                "LAST_NAME": "Apellidos",
+                "PHONE": "Móvil"
+            },
+            "SESSIONS": {
+                "EXPIRE_DATE": "Fecha de expiración",
+                "IP_ADDRESS": "Dirección Ip",
+                "DEVICE": "Dispositivo",
+                "CURRENT_SESSION": "Sesión actual",
+                "LOGOUT": "Cerrar sesión",
+                "SESSION_EXPIRED": "Sesión expirada"
+            },
+            "SUPPORT": {
+                "TICKETS": "Mis notificaciones",
+                "NEW_TICKET": "Nuevo ticket",
+                "SUBSCRIPTIONS": "Subscripciones",
+                "STATUS_WAITING_RESPONSE": "Esperando respuesta",
+                "STATUS_ANSWERED": "Contestado",
+                "STATUS_FINISHED": "Finalizado",
+                "TYPE_TICKET": "Ticket",
+                "TYPE_MONTHLY_DIGEST": "Resumen mensual",
+                "TYPE_PRODUCT_UPDATES": "Actualizaciones de producto",
+                "TYPE_DISCOUNT_AND_PROMOTIONS": "Descuentos y promociones"
+            },
+            "TICKET_EDIT": {
+                "YOU": "Usted",
+                "BY": "Por {{author}}",
+                "CLOSE": "Cerrar ticket",
+                "CLOSED": "Ticket cerrado",
+                "OPEN": "Re-abrir ticket",
+                "OPENED": "Ticket re-abierto"
+            },
+            "ACCOUNT_BILLING": {
+                "MY_PLAN": "Mi plan",
+                "BILLING_HISTORY": "Historial de facturación",
+                "CREDIT_CARD": "Tarjeta de crédito",
+                "CURRENT_CARD": "Tarjeta actual: {{card}}",
+                "CARD_NUMBER": "Número de tarjeta",
+                "CARD_NAME": "Titular",
+                "CARD_VALID_THRU": "Válida hasta",
+                "CARD_CVC": "CVC",
+                "CURRENT_PLAN": "Plan actual",
+                "PLAN_DAYS_LEFT": "expira en {{days}} días",
+                "CHANGE_PLAN": "Cambiar plan",
+                "INCLUDED": "¿Qué está incluído?",
+                "DURATION": "Por {{days}} días",
+                "AVAILABLE_PLANS": "Planes disponibles",
+                "TRANSACTION_ID": "Id Transacción",
+                "INVOICE": "Factura",
+                "NO_CREDIT_CARD": "Tienes que introducir tu tarjeta de crédito primero",
+                "CONFIRM_PURCHASE": "Confirmar compra",
+                "AUTO_RENEWAL_LABEL": "Renovación automática (subscripción)",
+                "PAY_SUCCESS": "Plan actualizado",
+                "PAY_ERROR": "El pago no puede ser procesado",
+                "CANCEL_AUTO_RENEWAL": "Cancelar renovación automática",
+                "PLAN_NEXT_PAY": "Próximo pago en {{days}} días"
+            }
+        },
+        "PROJECTS": {
+            "EDIT": {
+                "PROJECT": "Proyecto",
+                "SIMULATIONS": "Simulaciones",
+                "RESULTS": "Resultados",
+                "VIEW_SIMULATIONS": "Ver simulaciones",
+                "VIEW_RESULTS": "Ver resultados",
+                "DELETE_SIMULATION": "Eliminar simulación",
+                "DELETE_SIMULATION_DIALOG": "¿Estás seguro de que quieres eliminar esta simulación? No se puede deshacer.",
+                "DELETE": "¿Estás seguro de que quieres eliminar este proyecto? No se puede deshacer.",
+                "DELETED": "Proyecto eliminado",
+                "PROJECT_NAME": "Nombre del proyecto",
+                "PROJECT_DESCRIPTION": "Descripción del proyecto",
+                "NEW_SIMULATION": {
+                    "BASIC_INFORMATION": "Información básica",
+                    "REACTOR_PARAMS": "Parámetros del reactor",
+                    "WORKING_VOLUME": "Volúmen de trabajo",
+                    "HEADSPACE_VOLUME": "Volumen de espacio de cabeza",
+                    "SUBSTRATE_PARAMS": "Parámetros de sustrato",
+                    "FLOW": "Flujo",
+                    "TOTAL_COD": "COD total",
+                    "SOLUBLE_COD": "COD soluble",
+                    "VOLATILE_SOLIDS": "Sólidos volátiles",
+                    "AMMONIA_NITROGEN": "Nitrógeno amoniacal",
+                    "TOTAL_NITROGEN": "Nitrógeno total",
+                    "PH": "pH",
+                    "TOTAL_ALKALINITY": "Alcalinidad total",
+                    "PARTIAL_ALKALINITY": "Alcalinidad parcial",
+                    "SIMULATION_NAME": "Nombre de la simulación",
+                    "SIMULATION_DESCRIPTION": "Descripción de la simulación",
+                    "TITLE": "Nueva simulación",
+                    "STEP_0": {
+                        "TITLE": "Añadir información",
+                        "DESCRIPTION": "Proporcione un nombre significativo y una breve descripción de la simulación que se ejecutará en relación con el proyecto actual. Defina la etapa del proyecto de biogás que está trabajando en la celda tipo: Factibilidad o Planta en operación. Si elige Viabilidad, el módulo BPA-MT solo ejecutará el paso BMP para obtener una estimación del potencial de energía que se puede obtener. Si elige Planta en funcionamiento, también deberá proporcionar información sobre las propiedades del digestor y del sustrato. En este caso, el módulo BPA-MT ejecutará el paso BMP seguido del paso CSTR para obtener el rendimiento dinámico de la operación del digestor."
+                    },
+                    "STEP_1": {
+                        "TITLE": "Subir fichero",
+                        "DESCRIPTION": "Elija el archivo a cargar. Este archivo puede pertenecer a uno de los siguientes formatos (1) el formato AMPTS (Informe del equipo provisto por BPC) y (2) el formato de ProCycla. Más información Este expediente entrará en proceso de limpieza y disputa en la plataforma. Los resultados de este proceso se muestran en el siguiente paso."
+                    },
+                    "STEP_2": {
+                        "TITLE": "Validar fichero",
+                        "DESCRIPTION": "El grupo identificado de triplicados para cada experimento se muestra en los recuadros a continuación. Cada tipo de prueba, blanco, control, sustrato 1, etc., se agrupan en grupos. Por favor, compruebe cuidadosamente si hemos identificado correctamente cada grupo. Se debe prestar especial atención para definir los espacios en blanco (como grupo) correspondientes a cada grupo de sustrato. El usuario puede organizar manualmente los experimentos en cada grupo cuando se han cometido errores."
+                    },
+                    "STEP_FINAL": {
+                        "TITLE": "Resumen",
+                        "DESCRIPTION": "Los datos de la prueba por triplicado se promediaron y los resultados en blanco se restaron de los valores de prueba de los sustratos. Los resultados limpios y procesados se muestran gráficamente aquí. También se proporciona una tabla con los resultados. Si los datos no son correctos, vuelva a los pasos anteriores y verifique que cada paso se haya realizado correctamente."
+                    },
+                    "FORMAT_FILES": {
+                        "PROCYCLA": "Archivo de formato Procycla",
+                        "BPC": "Archivo de formato BPC"
+                    },
+                    "RESULT_STEP_ONE": "Primer paso - Carga y limpieza de datos",
+                    "RESULT_STEP_TWO": "Segundo paso - Módulo BMP",
+                    "RESULT_STEP_THREE": "Tercer paso - Módulo CSTR",
+                    "RESULT_STEP_THREE_TITLE": "Tercer paso",
+                    "RESULT_STEP_FOURTH_TITLE": "Cuarto paso",
+                    "DOWNLOAD_INPUT_FILE": "Descargar archivo de entrada",
+                    "DOWNLOAD_RESULTS": "Descargar resultados",
+                    "ADD_CLUSTER": "+ Añadir cluster",
+                    "REMOVE_CLUSTER": "Eliminar cluster",
+                    "BLANK": "Blanco",
+                    "SUBSTRATE": "Substrato",
+                    "CONTROL": "Control",
+                    "SIMULATION_CREATED": "Simulación creada satisfactoriamente",
+                    "SEND_TO": "Enviar a...",
+                    "CLUSTER_TYPE": "Tipo de cluster",
+                    "BLANK_CLUSTER": "Cluster blanco",
+                    "CLUSTER_VALUE": "Cantidad de sustrato (g)"
+                },
+                "DELETE_SIMULATION_SUCCESS": "Simulación eliminada correctamente"
+            },
+            "MY_PROJECTS_DESCRIPTION": "Los proyectos que actualmente están activos se muestran a continuación:",
+            "NEW_PROJECT_DESCRIPTION": "Cree un nuevo proyecto proporcionando un nombre y una breve descripción. Los nombres sugeridos pueden ser 'Planta de biogás 1', 'Sustratos para ganado', 'Julio de 2022', etc."
+        },
+        "SIMULATION": {
+            "DESCRIPTION": "La descripción de los resultados se divide en cuatro secciones: limpieza/disputas, paso BMP, paso CSTR y evaluación energética. El estado de ejecución de cada paso se proporciona junto al encabezado. El paso CSTR puede tardar un poco más dependiendo de las condiciones de simulación establecidas. Además, se puede descargar un informe resumido de los resultados.",
+            "PREDICTIONS": "Predicciones",
+            "PARAMETERS": "Parámetros",
+            "METRICS": "Métricas",
+            "ENERGY": "Energía",
+            "PRINT_TITLE": "Simulación #{{id}} - {{name}}",
+            "PRINT_SUBTITLE": "Proyecto #{{projectId}} - {{projectName}}",
+            "PRINT_GENERATED": "Generado el {{date}}",
+            "PROGRESS": "Progreso: {{progress}}%",
+            "ERRORS": {
+                "PARAM_SC_1": "El valor del parámetro '{{name}}' debe estar entre {{min}} y {{max}}.",
+                "PARAM_SC_2": "El ci_inf del parámetro '{{name}}' debe ser mayor que {{min}}.",
+                "PARAM_SC_3": "El valor parámetro '{{name}}' debe cumplir la ecuación {{equation}}.",
+                "METRIC_GT_ERROR": "El valor de la métrica '{{name}}' debe ser mayor que {{value}}.",
+                "METRIC_LT_ERROR": "El valor de la métrica '{{name}}' debe ser menor que {{value}}.",
+                "CSTR_ERROR": "La simulación no ha convergido."
+            }
+        },
+        "ADMIN": {
+            "USER_MANAGEMENT": {
+                "REGISTRATION_DATE": "Fecha de registro",
+                "STATUS_NORMAL": "Normal",
+                "STATUS_BANNED": "Prohíbido",
+                "ROLE": "Rol",
+                "ROLE_USER": "Usuario",
+                "ROLE_ADMIN": "Admin",
+                "USERS": "Usuarios",
+                "NEW_USER": "Nuevo usuario"
+            },
+            "USER_MANAGEMENT_ID": {
+                "SESSIONS": "Sesiones",
+                "SOCIAL_MEDIA_LINKS": "Enlaces de redes sociales",
+                "EMAIL_VERIFICATION_DESCRIPTION": "El usuario recibirá un código a su correo electrónico cuando inicie sesión."
+            },
+            "SUPPORT": {
+                "TICKETS": "Notificaciones",
+                "NEW_TICKET": "Nueva notificación"
+            }
+        }
+    },
+    "API": {
+        "BANNED_ACCOUNT": "Esta cuenta está prohibida",
+        "INVALID_REQUEST": "Petición no válida",
+        "INVALID_USER_AGENT": "Navegador no válido",
+        "INVALID_CREDENTIALS": "Credenciales no válidas",
+        "INTERNAL_ERROR": "Error interno",
+        "NETWORK_ERROR": "Error de red. Por favor, inténtalo de nuevo más tarde.",
+        "STRIPE": {
+            "STATUS": {
+                "REQUIRES_PAYMENT_METHOD": "Requiere método de pago",
+                "REQUIRES_CONFIRMATION": "Requiere confirmación",
+                "REQUIRES_ACTION": "Requiere acción",
+                "PROCESSING": "Procesando",
+                "REQUIRES_CAPTURE": "Requiere captura",
+                "CANCELED": "Cancelado",
+                "SUCCEEDED": "Satisfactorio",
+                "ACTIVE": "Activo",
+                "PAST_DUE": "Atrasado",
+                "UNPAID": "Sin pagar",
+                "INCOMPLETE": "Incompleto",
+                "INCOMPLETE_EXPIRED": "Incompleto caducado",
+                "TRIALING": "Probando",
+                "PAUSED": "Pausado"
+            }
+        }
+    },
+    "PROJECTS": {
+        "SIMULATION_TYPES": {
+            "PLANT_OPERATION": "Planta en operación",
+            "PREFEASIBILITY": "Prefactibilidad"
+        }
+    },
+    "PLANS": {
+        "ID_1": {
+            "NAME": "Pro",
+            "DESCRIPTION": "El plan Pro.",
+            "BENEFITS": [
+                "Beneficio 1",
+                "Beneficio 2",
+                "Beneficio 3",
+                "Beneficio 4"
+            ],
+            "PURCHASE": "Compra del plan Pro",
+            "RENEWAL": "Renovación del plan Pro"
+        },
+        "ID_2": {
+            "NAME": "Pro+",
+            "DESCRIPTION": "El plan Pro+.",
+            "BENEFITS": [
+                "Beneficio 1",
+                "Beneficio 2",
+                "Beneficio 3",
+                "Beneficio 4"
+            ],
+            "PURCHASE": "Compra del plan Pro+",
+            "RENEWAL": "Renovación del plan Pro+"
+        },
+        "ID_3": {
+            "NAME": "Premium",
+            "DESCRIPTION": "El plan Premium.",
+            "BENEFITS": [
+                "Beneficio 1",
+                "Beneficio 2",
+                "Beneficio 3",
+                "Beneficio 4"
+            ],
+            "PURCHASE": "Compra del plan Premium",
+            "RENEWAL": "Renovación del plan Premium"
+        }
+    }
+}

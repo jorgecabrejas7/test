@@ -1,0 +1,20 @@
+[address]
+url: []
+
+[constant-files]
+path-list: ["constants.csv","Biochemical_parameters.csv","Stoichiometric_parameters.csv","kleerebezem_parameters.csv"]
+initial-values-path: initial_values.csv
+
+[checkpoint]
+max-trh: 5.0
+min-trh: 3.5
+converge-ratio: 0.02
+
+[uncertainty]
+Bo: 0.2
+Kh: 0.002
+
+[energy]
+pc-biogas-inf = 6.5
+r-chp-caldera = 0.644
+r-chp-motor = 0.34

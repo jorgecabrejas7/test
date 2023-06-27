@@ -1,0 +1,19 @@
+{{- range  .Values.svc }}
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: "{{ .name }}-svc"
+  namespace: {{ .namespace }}
+  labels:
+    app: {{ .name }}
+    service: {{ .name }}
+spec:
+  ports:
+  - name: http
+    port: {{ .svcPort}}
+    targetPort: {{ .targetPort}}
+  selector:
+    app: {{ .name }}
+
+{{- end }}

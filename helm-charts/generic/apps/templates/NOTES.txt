@@ -1,0 +1,16 @@
+Thank you for installing {{ .Chart.Name }}.
+
+Your release is named {{ .Release.Name }}.
+
+To learn more about the release, try:
+
+  $ helm status {{ .Release.Name }}
+  $ helm get all {{ .Release.Name }}
+
+Port forward the service to localhost port : 
+
+{{- range  .Values.svc }}
+
+kubectl port-forward service/{{ .name }}-svc 20043:{{ .svcPort}} -n {{ .namespace }}
+
+{{- end }}
