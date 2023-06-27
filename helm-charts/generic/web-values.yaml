@@ -14,10 +14,7 @@ svc:
       memoryMiB: 300
       cpuMilli: 300
     env:
-      # - name: "NODE_ENV"
-      #   value: "development"
-      # - name: "HTTPS"
-      #   value: "false"
+
       # - name: "NEXT_PUBLIC_API_URL"
       #   value: http://web.24.199.74.71.nip.io/
       # - name: "WDS_SOCKET_PORT"

@@ -44,4 +44,4 @@ jobs:
       # - name: Remove untagged manifest
       #   run: doctl registry garbage-collection start --include-untagged-manifests --force
 
-  
+#
