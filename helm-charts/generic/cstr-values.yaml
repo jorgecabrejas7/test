@@ -8,7 +8,7 @@ svc:
     imagePullPolicy : Always
     # path_check: "html"
     tls_secret: ""
-    host : "cstr.24.199.74.71.nip.io"
+    host : "cstr.159.223.242.21.nip.io"
     apiPrefix: "/"
     resources:
       memoryMiB: 300
