@@ -98,12 +98,13 @@ const startSimulation = async (simulation) => {
                         };
                         
                         try {
+                            console.log('[CSTR BODY] --- ', JSON.stringify(body))
                             const cstrResponse = await fetch(process.env.CSTR_API_URL + "/api/v1/cstr/run", {
                               method: "post",
                               headers: { "Content-Type": "application/json" },
                               body: JSON.stringify(body)
                             });
-                          
+                            
                             if (cstrResponse.ok) {
                               const respJson = await cstrResponse.json();
                               console.log('[API INFO] --- cstrResponse: ', JSON.stringify(respJson));
