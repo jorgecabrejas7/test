@@ -37,3 +37,4 @@ jobs:
         uses: WyriHaximus/github-action-helm3@v3
         with:
           exec: helm upgrade wrangling-service helm-charts/generic/apps --install --wait --atomic --namespace=default --values=helm-charts/generic/wrangling-service-values.yaml --set "svc[0].docker_image=${{ secrets.DIGITALOCEAN_REGISTRY_NAME }}/wrangling-service:latest"
+#
