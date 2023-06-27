@@ -120,7 +120,7 @@ Default user name of DB use is "root" :
 #### Connect to DB with SQL (optional; veryfing the creds)
 
     kubectl run my-release-mariadb-client --rm --tty -i --restart='Never' --image  docker.io/bitnami/mariadb:10.11.3-debian-11-r5 --namespace default --command -- bash
-    mysql -h my-release-mariadb.default.svc.cluster.local -u root -p procycla
+        
 
 
 

@@ -36,12 +36,3 @@ jobs:
         uses: WyriHaximus/github-action-helm3@v3
         with:
           exec: helm upgrade web helm-charts/generic/apps --install --wait --atomic --namespace=default --values=helm-charts/generic/web-values.yaml --set "svc[0].docker_image=${{ secrets.DIGITALOCEAN_REGISTRY_NAME }}/web:latest" 
-          #
-      # - name: Rollout new version
-      #   uses: actions-hub/kubectl@master
-      #   with:
-      # #     args: rollout restart deployment web
-      # - name: Remove untagged manifest
-      #   run: doctl registry garbage-collection start --include-untagged-manifests --force
-
-#

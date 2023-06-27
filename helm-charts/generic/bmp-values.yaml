@@ -1,5 +1,5 @@
 svc:
-  - name: bpm
+  - name: bmp
     namespace: default
     docker_image: nginx:latest
     replicas: 1
