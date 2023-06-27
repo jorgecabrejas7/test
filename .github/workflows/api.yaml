@@ -35,4 +35,4 @@ jobs:
         uses: WyriHaximus/github-action-helm3@v3
         with:
           exec: helm upgrade api helm-charts/generic/apps --install --wait --atomic --namespace=default --values=helm-charts/generic/api-values.yaml --set "svc[0].docker_image=${{ secrets.DIGITALOCEAN_REGISTRY_NAME }}/api:latest"
-          
+#
