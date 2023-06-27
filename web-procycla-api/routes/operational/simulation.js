@@ -97,17 +97,25 @@ const startSimulation = async (simulation) => {
                             progress_url: process.env.APP_URL + "/simulation/progress?simulation_id=" + dbSimulation.id + "&substrate_index=" + substrateIndex + "&length=" + bmpResult.substrates.length + "&index=" + index
                         };
                         
-                        const cstrResponse = await fetch(process.env.CSTR_API_URL + "/api/v1/cstr/run", {
-                            method: "post",
-                            headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify(body)
-                        });
-
-                        const respJson = await cstrResponse.json()
-                        console.log('[API INFO] --- cstrResponse: ', JSON.stringify(respJson))
-
-                        if(cstrResponse.status == 200) cstrResponses.push(respJson);
-                        else cstrErrors.push(cstrResponse.statusText);
+                        try {
+                            const cstrResponse = await fetch(process.env.CSTR_API_URL + "/api/v1/cstr/run", {
+                              method: "post",
+                              headers: { "Content-Type": "application/json" },
+                              body: JSON.stringify(body)
+                            });
+                          
+                            if (cstrResponse.ok) {
+                              const respJson = await cstrResponse.json();
+                              console.log('[API INFO] --- cstrResponse: ', JSON.stringify(respJson));
+                              cstrResponses.push(respJson);
+                            } else {
+                              const responseBody = await cstrResponse.text();
+                              console.error(`Invalid JSON response: ${responseBody}`);
+                              cstrErrors.push(cstrResponse.statusText);
+                            }
+                          } catch (error) {
+                            console.error(error);
+                          }
                     }
 
                     if(cstrResponses.length == 3) {
