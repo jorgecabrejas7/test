@@ -103,7 +103,10 @@ const startSimulation = async (simulation) => {
                             body: JSON.stringify(body)
                         });
 
-                        if(cstrResponse.status == 200) cstrResponses.push(await cstrResponse.json());
+                        const respJson = await cstrResponse.json()
+                        console.log('[API INFO] --- cstrResponse: ', JSON.stringify(respJson))
+
+                        if(cstrResponse.status == 200) cstrResponses.push(respJson);
                         else cstrErrors.push(cstrResponse.statusText);
                     }
 
@@ -130,10 +133,15 @@ const startSimulation = async (simulation) => {
                         if(cstrUncertaintyPropagationResponse.status == 200) {
                             const energy = cstrResponses[0].results.filter(r => r.name == "energy")[0];
                             const response = await cstrUncertaintyPropagationResponse.json();
+                            console.log('[API INFO] --- cstrUncertainty: ', JSON.stringify(response))
                             response.push(energy);
                             cstrResults.push(response);
                         }
-                        else cstrErrors.push(cstrUncertaintyPropagationResponse.statusText);
+                        else {
+                            const errResp = await cstrUncertaintyPropagationResponse.json()
+                            console.log('[API ERROR] --- cstrUncertainty: ', JSON.stringify(errResp))
+                            cstrErrors.push(cstrUncertaintyPropagationResponse.statusText);
+                        }
                     }
                 };
 
